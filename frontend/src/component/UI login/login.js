@@ -123,7 +123,7 @@ class login extends Component {
     render() {
         return (
             <div className="UILogin" style={{backgroundImage: `url(${process.env.PUBLIC_URL + 'img/anhnen.png'})`}}>
-                <div className="container">
+                <div className="container col-xl-4 col-lg-6 col-md-8 col-sm-10 col-12">
                     {
                         this.form()
                     }
